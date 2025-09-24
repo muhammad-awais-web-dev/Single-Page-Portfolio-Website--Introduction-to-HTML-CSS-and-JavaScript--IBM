@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>James Washington</h1>
+            <h2>james@washington.com</h2>
+            <h3>+12304246325</h3>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#recommendations">Recommendations</a></li>
+            </ul>
+        </nav><!--The Home icon appears as specified. – 1 point-->
+    </header><!--Upon submitting a recommendation, a pop-up message with confirmation dialogue appears. – 2 points-->
+    <main>
+        <section id="about" >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4YreOWfDX3kK-QLAbAL4ufCPc84ol2MA8Xg&s" alt="Profile Image" />
+            <div>
+                <h2>Hi, I'm James Washington</h2>
+                <p>A passionate web developer with a love for creating dynamic and responsive websites. I have experience in HTML, CSS, JavaScript, and various frameworks. My goal is to build user-friendly applications that provide great user experiences.</p>
+            </div>
+        </section>
+        <section id="skills" >
+            <div class="skill"><div class="imgcontainer" ><img src="https://static.wikia.nocookie.net/logopedia/images/1/19/HTML5_shield.svg/" alt="Skill 1"> </div> <span>HTML</span> <span>2 Years</span></div>
+            <div class="skill"><div class="imgcontainer" ><img src="https://skillforge.com/wp-content/uploads/2020/10/javascript-266x300.png" alt="Skill 1"> </div> <span>JavaScript</span> <span>2 Years</span></div>
+            <div class="skill"><div class="imgcontainer" ><img src="https://ultimatecourses.com/assets/category/css-fcba6b473cb1125595dc28163be24eb673907258b5f6f6c82967a0587a9df20c.svg" alt="Skill 1"> </div> <span>CSS</span> <span>2 Years</span></div>
+            <div class="skill"><div class="imgcontainer" ><img src="https://miro.medium.com/v2/resize:fit:800/1*bc9pmTiyKR0WNPka2w3e0Q.png" alt="Skill 1"> </div> <span>React</span> <span>2 Years</span></div>
+            <div class="skill"><div class="imgcontainer" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="Skill 1"> </div> <span>Node.js</span> <span>2 Years</span></div>
+        </section>
+        <section id="projects" >
+            <div class="project">
+                <h3>Chat Application</h3>
+                <ul>
+                    <li>Developed a secure website integrated with chatbot for an automobile client using HTML, CSS, JavaScript and IBM Watson Assistant</li>
+                </ul>
+                <div class="divider"></div>
+            </div>
+            <div class="project">
+                <h3>E-commerce Website</h3>
+                <ul>
+                    <li>Developed a fully functional e-commerce website using HTML, CSS, JavaScript, and Node.js</li>
+                </ul>
+                <div class="divider"></div>
+            </div>
+            <div class="project">
+                <h3>Social Media Dashboard</h3>
+                <ul>
+                    <li>Developed a social media dashboard using React, Node.js, and MongoDB</li>
+                </ul>
+                <div class="divider"></div>
+            </div>
+        </section>
+        <section id="recommendations" >
+            <div id="recommendationcontainer">
+                <div class="recommendation">
+                    <p><span>"</span> James is a very quick learner and quickly grasps key concepts of Web development. He has a great attitude & is an excellent team player. He has a curious mind and asks the right questions. He takes initiative within a team and has the potential to lead the team. <span>"</span></p>
+                </div>
+                <div class="recommendation">
+                    <p><span>"</span> Working with James has been an awesome experience. He is highly knowledgeable and always goes the extra step to make sure everything is right. For any future projects that need his expertise I would definitely want to work with him again. <span>"</span></p>
+                </div>
+                <div class="recommendation">
+                    <p><span>"</span> James is a dedicated and skilled developer. He consistently delivers high-quality work and is always willing to help his teammates. I highly recommend him for any web development projects. <span>"</span></p>
+                </div>
+                <div class="recommendation">
+                    <p><span>"</span> James is a highly skilled developer with a strong understanding of web technologies. He consistently produces high-quality work and is a valuable asset to any team. <span>"</span></p>
+                </div>
+            </div>
+            <form onsubmit="alert('Thank you for submitting a recommendation!');">
+                <h2>Leave A Recommendation</h2>
+                <textarea id="recommendation" name="recommendation" rows="4" cols="50" placeholder="Write your recommendation here..." required></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 John Doe. All rights reserved.</p>
+    </footer>
+    <div id="totop">
+        <a href="#top"><img src="https://cdn-icons-png.flaticon.com/512/1946/1946488.png" alt="Back to Top"></a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
